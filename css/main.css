@@ -315,14 +315,14 @@ border: 5px solid #f1f1f1;
 
 .space-content H2{
 font-size:36px;
-font-weight:600;
+font-weight:500;
 }
 
 /***media query***/
  @media (max-width: 767px) {
 .space-content H2{
 font-size:24px;
-font-weight:600;
+font-weight:500;
 }	
  .navbar-brand {
  display:none;
