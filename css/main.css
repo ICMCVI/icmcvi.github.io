@@ -332,12 +332,12 @@ font-size:24px;
 font-weight:600;
 margin-bottom: 5px;
 }
-.rd-mobilepanel_title {
-    display: block;
-    max-width: 100%;
+.rd-mobilepanel_title img {
+    vertical-align: middle;
+    max-width: 68%;
     height: auto;
+    display: block;
 }
-
  .navbar-brand {
  display:none;
  margin:0px;
