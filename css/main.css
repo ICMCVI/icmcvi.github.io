@@ -361,6 +361,9 @@ margin-bottom:0px
 fieldset label{
 text-align:left;
 }
+.center991 h2 {
+  text-transform: capitalize;
+}
 
 /***media query***/
  @media (max-width: 767px) {
@@ -369,6 +372,9 @@ font-size:24px;
 font-weight:600;
 margin-bottom: 5px;
 text-align: left;
+}
+.space-content p {
+   text-align:left;
 }
 .rd-mobilepanel_toggle {
     /* position: fixed; */
