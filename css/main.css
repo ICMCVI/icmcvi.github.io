@@ -358,6 +358,10 @@ margin-bottom:0px
     -o-transition: 0.2s;
     transition: 0.2s;
 }
+fieldset label{
+text-align:left;
+}
+
 /***media query***/
  @media (max-width: 767px) {
 .space-content h2{
