@@ -68,7 +68,7 @@ header .stuck_container {
 .banner-image {
 	with:100%;
 	margin: 0px auto 0px;
-	padding:20px;
+	padding:15px;
 	background:#fff;
 }
 .banner-image img {
@@ -99,6 +99,23 @@ header .stuck_container {
 	border-top-width: 0;
 	border:10px solid #f1f1f1;
 }
+.btn-primary {
+    white-space: nowrap;
+    color: #ffffff;
+    background-color: #0b5e7c;
+    border-color: #0b5e7c;
+}
+.btn-primary:focus {
+    color: #ffffff;
+    background-color: #0b5e7c;
+    border-color: #0b5e7c;
+}
+.btn-primary:hover {
+    color: #0b5e7c;
+    background-color: #ffffff;
+    border-color: #0b5e7c;
+}
+
 .thumb-shadow {
 	margin-bottom:10px;
 	text-align: center;
@@ -115,7 +132,7 @@ header .stuck_container {
 	vertical-align: middle;
 }
 .thumb-shadow img {
-	    padding: 20px;
+	    padding: 15px;
 }
 .wrap a {
 	color:#21c2f8;
@@ -397,8 +414,10 @@ margin:0px;
  margin-bottom:0px;
 }
 .min-height {
-	min-height: 600px;
+	min-height: auto;
 	 width: 100%;
+	 position:relative;
+	 margin-top: -20px;
 }
 main .container {
      background:transparent; 
@@ -408,6 +427,14 @@ main .container {
     margin-left: -5px;
     margin-right: -5px;
 	 background: #fff;
+}
+.head-title {
+
+    height: 49px;
+    margin-bottom: 30px;
+}
+.center991 .row .col-sm-12 {
+ 
 }
  
 }
