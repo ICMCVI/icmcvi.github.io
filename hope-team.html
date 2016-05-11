@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app>
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,15 +11,16 @@
 <!-- Bootstrap -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <!-- Links -->
+<link rel="stylesheet" href="css/md-component.css">
 <link rel="stylesheet" href="css/search.css">
 <link rel="stylesheet" href="css/main.css">
 
 <script src="js/jquery.js"></script>
 <script src="js/device.min.js"></script>
-
+<script src="js/md-component.js"></script>
 
 </head>
-<body>
+<body ng-app="MyApp" ng-cloak>
 <div class="page"> 
   <!--========================================================
 HEADER
@@ -47,12 +48,7 @@ HEADER
                   <ul class="dropdown-menu">
                     <li> <a href="events-calendar.html">Events Calendar</a> </li>
                     <li><a href="2015-reds-indians-charity-golf-classic.html">2015 Reds/Indians Charity Golf Classic</a></li>
-                    <li> <a href="2015-broadhead-brotherhood-shoot-for-hope.html">2015 Broadhead Brotherhood Shoot for HOPE</a> 
-                      <!--<ul class="dropdown-menu">
-                        <li> <a href="#">Latest</a> </li>
-                        <li> <a href="#">Archive</a> </li>
-                      </ul>--> 
-                    </li>
+                    <li> <a href="2015-broadhead-brotherhood-shoot-for-hope.html">2015 Broadhead Brotherhood Shoot for HOPE</a> </li>
                   </ul>
                 </li>
                 <li> <a href="faq.html">FAQ</a> </li>
@@ -103,7 +99,7 @@ CONTENT
              <div class=" media"> 
             <form class="search-form" action="search.php" method="GET" accept-charset="utf-8">
           <label class="search-form_label">
-            <input class="search-form_input" type="text" name="s" autocomplete="off" placeholder=""/>
+            <input class="search-form_input" type="text" name="s" autocomplete="off" placeholder="Search this website …"/>
             <span class="search-form_liveout"></span>
           </label>
           <button class="search-form_submit fa-search" type="submit"></button>
@@ -184,6 +180,64 @@ FOOTER
       </div>
     </section>
   </footer>
+  
+  <div ng-controller="BottomSheetExample" class="md-padding bottomSheetdemoBasicUsage" ng-cloak="" ng-app="MyApp">
+  <h2 class="md-title">Usage</h2>
+  <p>Bottom sheets can be displayed by clicking one of the buttons below.  Once shown, it can be
+  dismissed by either swiping down or clicking in the shaded area.</p>
+  <h2 class="md-title">Actions</h2>
+  <p>Use one of the following buttons to display a bottom sheet.</p>
+  <div class="bottom-sheet-demo inset" layout="row" layout-sm="column" layout-align="center">
+    <md-button flex="50" class="md-primary md-raised" ng-click="showListBottomSheet()">Show as List</md-button>
+    <md-button flex="50" class="md-primary md-raised" ng-click="showGridBottomSheet()">Show as Grid</md-button>
+  </div>
+
+  <div ng-if="alert">
+    <br>
+    <b layout="row" layout-align="center center" class="md-padding">
+      {{alert}}
+    </b>
+  </div>
+<script type="text/ng-template" id="bottom-sheet-grid-template.html"><md-bottom-sheet class="md-grid" layout="column" ng-cloak>
+  <div layout="row" layout-align="center center">
+    <h4>Since <code>clickOutsideToClose = false</code>, drag down or press ESC to close</h4>
+  </div>
+  <div>
+    <md-list flex layout="row" layout-align="center center">
+      <md-list-item ng-repeat="item in items">
+
+        <md-button class="md-grid-item-content" ng-click="listItemClick($index)">
+          <md-icon md-svg-src="{{item.icon}}"></md-icon>
+          <div class="md-grid-text"> {{ item.name }} </div>
+        </md-button>
+
+      </md-list-item>
+    </md-list>
+  </div>
+</md-bottom-sheet>
+</script><script type="text/ng-template" id="bottom-sheet-list-template.html"><md-bottom-sheet class="md-list md-has-header" ng-cloak>
+  <md-subheader>Comment Actions</md-subheader>
+  <md-list>
+    <md-list-item ng-repeat="item in items">
+
+      <md-button
+          ng-click="listItemClick($index)"
+          md-autofocus="$index == 2"
+          class="md-list-item-content" >
+        <md-icon md-svg-src="{{item.icon}}"></md-icon>
+        <span class="md-inline-list-icon-label">{{ item.name }}</span>
+      </md-button>
+
+    </md-list-item>
+  </md-list>
+</md-bottom-sheet>
+</script></div>
+
+<!--
+Copyright 2016 Google Inc. All Rights Reserved. 
+Use of this source code is governed by an MIT-style license that can be in foundin the LICENSE file at http://material.angularjs.org/license.
+-->
+  
 </div>
 <script src="js/bootstrap.min.js"></script> 
 <script src="js/tm-scripts.js"></script> 
