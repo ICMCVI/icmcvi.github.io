@@ -391,7 +391,7 @@ padding-top:0px;
 }
  .rd-mobilepanel {
  line-height: 200px;
- min-height: 120px;
+ min-height: 125px;
  background: #fff;
  width: 100%;
 }
@@ -441,7 +441,7 @@ main .container {
  @media (max-width: 420px) {
  .rd-mobilepanel {
  line-height: 200px;
- min-height: 90px;
+ min-height: 85px;
  background: #fff;
  width: 100%;
 }
