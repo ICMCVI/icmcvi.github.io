@@ -293,6 +293,9 @@ padding-top:10px;
     height: 42px;
     margin: 0;
 }
+fieldset label{
+font-size:13px;	
+}
 #contact-form .empty-message, #contact-form .error-message {
     -moz-transition: 0.3s ease-in height;
     -webkit-transition: 0.3s ease-in height;
