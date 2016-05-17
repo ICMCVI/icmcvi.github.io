@@ -2340,7 +2340,7 @@ mark,
 }
 @media (max-width: 991px) {
   .center991 {
-    text-align: center;
+    /*text-align: center;*/
   }
 /*  .center991 * {
     text-align: center;
