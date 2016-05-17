@@ -434,8 +434,8 @@ left:4px;
 }
 .position-change{
 position:relative;
-top:3px;
-right:5px;
+top:3px!important;
+margin-right:5px;
 }
 
 /***media query***/
