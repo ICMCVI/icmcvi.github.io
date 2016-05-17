@@ -30,7 +30,10 @@ a, a:visited {
 }
 .navbar-brand:hover {
     box-shadow: 9px 13px 26px -8px #222533!important;
-    padding:10px!important;
+}
+.navbar-brand img{
+ padding:10px!important;
+}
 }
 main .container {
     background: #ffffff;
