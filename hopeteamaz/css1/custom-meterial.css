@@ -5513,6 +5513,9 @@ transition:box-shadow .25s;
 .card .card-title.activator {
 	cursor:pointer
 }
+.card .card-title.activator1{
+	cursor:pointer
+}
 .card.small, .card.medium, .card.large {
 	position:relative
 }
