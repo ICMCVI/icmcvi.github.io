@@ -2100,8 +2100,14 @@ section.sect-404 .lead + p {
                      FOOTER  Styles
 =========================================================*/
 footer {
+ 
   border-top: 1px solid #e0e0e0;
   background: #ffffff;
+  position: fixed;
+  height: 50px;
+  bottom: 0;
+  width: 100%;
+  
 }
 footer.top-border {
   border-top: 10px solid #000;
