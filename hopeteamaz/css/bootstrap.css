@@ -2001,11 +2001,13 @@ header .top-sect:after {
 }
 @media (max-width: 767px) {
   header .top-sect {
-    padding-bottom: 0;
+ padding-bottom: 0;
   }
 }
 header .top-sect .help-box {
-  float: right;
+float: right;
+  position: relative;
+  top: 15px;
 }
 header .top-sect .help-box p {
   font-weight: 700;
