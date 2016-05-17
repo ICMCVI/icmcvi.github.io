@@ -37,7 +37,7 @@ a, a:visited {
 }
 main .container {
     background: #ffffff;
-    padding: 29px 20px 50px;
+    padding: 29px 20px 50px!important;
 }
 .well {padding:0;}
 .help-box {
