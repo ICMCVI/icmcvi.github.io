@@ -296,6 +296,10 @@ padding-top:10px;
 fieldset label{
 font-size:13px;	
 }
+placeholder {
+color:#929292;
+font-size:13px;	
+}
 #contact-form .empty-message, #contact-form .error-message {
     -moz-transition: 0.3s ease-in height;
     -webkit-transition: 0.3s ease-in height;
