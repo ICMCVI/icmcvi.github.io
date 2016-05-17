@@ -2068,6 +2068,7 @@ padding-top:15px;
 =========================================================*/
 main .container{
   background: #ffffff;
+  padding: 29px 20px 50px!important;
 }
 section.sect-404 strong {
   font-size: 160px;
