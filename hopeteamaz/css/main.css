@@ -374,7 +374,12 @@ font-weight:600;
 .banner-box{
 margin-bottom:0px
 }
-
+blockquote {
+    margin: 20px 0;
+    padding-left: 10px;
+     border-left: none; 
+    background: #f1f1f1;
+}
 
 .rd-mobilepanel_toggle {
     /* position: fixed; */
