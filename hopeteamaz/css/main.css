@@ -414,6 +414,12 @@ float:none; margin:0 10px;
 color:#34accb;
 }
 
+.color-red{
+color:#C00;
+position:relative;
+top:-2px;
+left:4px;
+}
 
 /***media query***/
  @media (max-width: 767px) {
