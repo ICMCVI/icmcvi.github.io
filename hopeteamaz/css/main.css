@@ -281,7 +281,7 @@ padding-top:10px;
     box-sizing: border-box;
     font: 400 15px 'Raleway', sans-serif;
     line-height: 24px;
-    padding:10px 20px;
+    padding: 10px 20px;
     color: #222533;
     padding-left: 20px;
     background-color: #ffffff;
@@ -290,7 +290,7 @@ padding-top:10px;
     border-radius: 0;
     outline: none;
     -webkit-appearance: none;
-    height: 50px;
+    height: 42px;
     margin: 0;
 }
 #contact-form .empty-message, #contact-form .error-message {
