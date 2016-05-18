@@ -488,14 +488,15 @@ header .top-sect .help-box a {
 }
 .rd-mobilepanel{
 height:120px;
-display:block;
+display:block!important;
 }
  .navbar-default{
-display:none;
+display:none!important;
 }
 .mob-view{
-display:block;
+display:block!important;
 }
+
 header .top-sect .help-box {
     float: right;
     position: relative;
@@ -508,7 +509,7 @@ header .top-sect .help-box {
     left: 28%;
 }
 #stuck_container{
-	display:none;
+	display:none!important;
 }
 .rd-mobilemenu_ul{
 top:3px;
