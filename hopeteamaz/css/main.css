@@ -437,6 +437,10 @@ position:relative;
 top:3px!important;
 margin-right:5px;
 }
+.text-center p{
+text-align:center;
+}
+
 
 /***media query***/
  @media (max-width: 767px) {
