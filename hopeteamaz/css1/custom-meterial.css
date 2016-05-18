@@ -6437,7 +6437,7 @@ transition:.2s ease-out
 transition:color .2s
 }
 .input-field .prefix.active {
-	color:#26a69a
+	color:#0b5e7c
 }
 .input-field .prefix ~ input, .input-field .prefix ~ textarea {
 margin-left:3rem;
