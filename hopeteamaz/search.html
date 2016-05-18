@@ -16,26 +16,15 @@
 <!-- Links -->
 <link rel="stylesheet" href="css/search.css">
 <link rel="stylesheet" href="css/main.css">
-<link rel="stylesheet" href="css/contact-form.html">
 
-<!-- <link rel="stylesheet" href="css/contact-form1.css">-->
 <script src="js/jquery.js"></script>
 <script src="js/device.min.js"></script>
-<style>
-.modal-body .form-horizontal .col-sm-2, .modal-body .form-horizontal .col-sm-10 {
-	width: 100%
-}
-.modal-body .form-horizontal .control-label {
-	text-align: left;
-}
-.modal-body .form-horizontal .col-sm-offset-2 {
-	margin-left: 15px;
-}
-</style>
+
+
 </head>
 <body>
-<div class="page scrollspy card">
-  <div class="page"> 
+<div class="page scrollspy card"> 
+<div class="page">
     <!--========================================================
 HEADER
 =========================================================-->
@@ -43,10 +32,10 @@ HEADER
       <div class="container top-sect">
         <div class="navbar-header padding-zero">
           <div class="row">
-            <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="col-md-4 col-sm-4 col-xs-12">
               <h1 class="navbar-brand img-responsive"> <a data-type='rd-navbar-brand'  href="index.html"><img src="img/HOPE-Logo-CMYK.png" alt="Hopeteamaz"></a> </h1>
             </div>
-            <div class="col-md-8 col-sm-12 col-xs-12">
+            <div class="col-md-8 col-sm-8 col-xs-12">
               <div class="help-box text-right"> <a href="index.html"><img src="img/top-header.png"></a> </div>
             </div>
           </div>
@@ -61,7 +50,7 @@ HEADER
                   <li class="dropdown"> <a href="event.html">EVENTS<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
                     <ul class="dropdown-menu">
                       <li> <a href="events-calendar.html">Events Calendar</a> </li>
-                      <li class="active"><a href="2015-reds-indians-charity-golf-classic.html">2015 Reds/Indians Charity Golf Classic</a></li>
+                      <li><a href="2015-reds-indians-charity-golf-classic.html">2015 Reds/Indians Charity Golf Classic</a></li>
                       <li> <a href="2015-broadhead-brotherhood-shoot-for-hope.html">2015 Broadhead Brotherhood Shoot for HOPE</a> 
                         <!--<ul class="dropdown-menu">
                         <li> <a href="#">Latest</a> </li>
@@ -78,7 +67,7 @@ HEADER
                     </ul>
                   </li>
                   <li> <a href="volunteer-corner.html">VOLUNTEER CORNER</a> </li>
-                  <li> <a href="give.html">GIVE</a> </li>
+                  <li class="active"> <a href="give.html">GIVE</a> </li>
                   <li> <a href="contact.html">CONTACT</a> </li>
                 </ul>
               </div>
@@ -98,28 +87,21 @@ CONTENT
       <section class="well">
         <div class="container center991">
           <div class="row">
-            <div class="col-md-8 col-sm-12 col-xs-12 space-content">
-              <h2> contact form </h2>
-              <p>Comments or questions are welcome.</p>
-              <form id="contact-form" class='contact-form'>
-                <div class="contact-form-loader"></div>
-                <fieldset>
-                <p><span class="color-red position-change">*</span> indicates required field</p>
-                  <label class="name"> Name:<span class="color-red">*</span>
-                    <input type="text" name="name" placeholder="Name" value="" data-constraints="@Required @JustLetters"/>
-                    <span class="empty-message">*This field is required.</span> <span class="error-message">*This is not a valid name.</span> </label>
-                  <label class="email">Email:<span class="color-red">*</span>
-                    <input type="text" name="email" placeholder="Email" value="" data-constraints="@Required @Email"/>
-                    <span class="empty-message">*This field is required.</span> <span class="error-message">*This is not a valid email.</span> </label>
-                  <label class="Subject">Subject:<span class="color-red">*</span>
-                    <input type="text" name="subjet" placeholder="Subjet" value="" data-constraints="@JustContent"/>
-                    <span class="empty-message">*This field is required.</span> <span class="error-message">*This is not a valid phone.</span> </label>
-                  <label class="message">Message:<span class="color-red">*</span>
-                    <textarea name="message" placeholder="Message" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
-                    <span class="empty-message">*This field is required.</span> <span class="error-message">*The message is too short.</span> </label>
-                  <button class="btn waves-effect waves-light red darken-1" type="submit" target="blank">Submit <i class="mdi-content-send right"></i> </button>
-                </fieldset>
-              </form>
+            <div class="col-md-8 col-sm-12 col-xs-12 space-content search-col">
+              <h2> Search Results for:</h2>
+              <p>Sorry, no content matched your criteria.</p>
+              <ul>
+               <li><a href="#">faq</a><p>To be a volunteer at Cancer Treatment Centers of America® with the H.O.P.E. Team is a privilege, honor, rewarding, </p></li>
+               <li><a href="#">faq</a><p>To be a volunteer at Cancer Treatment Centers of America® with the H.O.P.E. Team is a privilege, honor, rewarding, </p></li>
+                <li><a href="#">faq</a><p>To be a volunteer at Cancer Treatment Centers of America® with the H.O.P.E. Team is a privilege, honor, rewarding, </p></li>
+                <li><a href="#">faq</a><p>To be a volunteer at Cancer Treatment Centers of America® with the H.O.P.E. Team is a privilege, honor, rewarding, </p></li>
+              </ul>
+           
+             
+       
+              
+              
+              
             </div>
             <aside  id="sidebar" class="title-height">
               <div class="col-md-4 col-sm-12 col-xs-12">
@@ -172,22 +154,23 @@ CONTENT
               </div>
             </aside>
           </div>
-        </div>
+ </div>
       </section>
       
       <!-- Sidebar --> 
+      
     </main>
     
     <!--========================================================
 FOOTER
 =========================================================-->
-    <footer class="top-border">
-      <section class="well1">
-        <div class="container">
-          <p rel="nofollow">Copyright © 2016 H.O.P.E. Team</p>
-        </div>
-      </section>
-    </footer>
+ <footer class="top-border">
+    <section class="well1">
+      <div class="container">
+        <p rel="nofollow">Copyright © 2016 H.O.P.E. Team</p>
+      </div>
+    </section>
+  </footer>  
   </div>
   <div class="card-reveal1"> <span class="card-title grey-text text-darken-4">H.O.P.E. Team Wish List<i class="mdi-navigation-close right"></i></span>
     <div class="entry-content">
@@ -217,8 +200,10 @@ FOOTER
 </div>
 <script src="js/bootstrap.min.js"></script> 
 <script src="js/tm-scripts.js"></script> 
-<script src="js1/plugin-min.js"></script> 
+<script src="js1/plugin-min.js"></script>
 <script src="js1/plugin-wishlist-min.js"></script> 
-<script src="js/superfish.js"></script>
+<script src="js/superfish.js"></script> 
+
+
 </body>
 </html>
