@@ -5509,7 +5509,8 @@ transition:box-shadow .25s;
 	color:#fff;
 	font-size:24px;
 	font-weight:300;
-	color:#0b5e7c;
+       color: #0b5e7c!important;
+    font-weight: 600;
 }
 .card .card-title.activator {
 	cursor:pointer
