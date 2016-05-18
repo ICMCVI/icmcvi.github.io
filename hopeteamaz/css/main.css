@@ -592,8 +592,8 @@ display:block!important;
 }
  @media (max-width: 420px) {
  .rd-mobilepanel {
-/* line-height: 200px;
- min-height: 100px;*/
+/* line-height: 200px;*/
+ min-height: 82px;
  background: #fff;
  width: 100%;
 }
