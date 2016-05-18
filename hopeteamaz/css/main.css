@@ -490,7 +490,7 @@ header .row .col-sm-12{
 
 }
 .min-height{
-	min-height:auto;
+	height:auto;
 }
 .rd-mobilepanel{
 height:120px;
