@@ -1089,10 +1089,10 @@ th {
 }
 /*==================     ToTop     ======================*/
 .toTop {
-  width: 47px;
-  height: 47px;
+  width: 40px;
+  height: 40px;
   font-size: 24px;
-  line-height: 47px!important;
+  line-height: 40px!important;
   font-weight: 700;
   color: #fff!important;
   background: #07a9df;
@@ -1105,7 +1105,7 @@ th {
   transition: 0.3s;
   position: fixed;
   right: 66px;
-  bottom: 180px;
+  bottom: 120px;
   display: none;
   overflow: hidden;
   text-align: center;
