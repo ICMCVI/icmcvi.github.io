@@ -622,6 +622,10 @@ display:block!important;
     top: 100%;
     height: 60%;
     }
+	.rd-mobilepanel_toggle {
+    position: fixed;
+    top: 23px
+	}
 }
  @media (max-width: 420px) {
  .rd-mobilepanel {
