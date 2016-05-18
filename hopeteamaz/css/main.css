@@ -488,8 +488,9 @@ header .top-sect .help-box a {
 }
 .rd-mobilepanel{
 height:120px;
+display:block;
 }
- .navbar-brand {
+ .navbar-default{
 display:none;
 }
 .mob-view{
@@ -505,6 +506,9 @@ header .top-sect .help-box {
      padding-left: 0px; 
     top: 4px;
     left: 28%;
+}
+#stuck_container{
+	display:none;
 }
 .rd-mobilemenu_ul{
 top:3px;
