@@ -483,11 +483,11 @@ text-align: left;
  vertical-align: middle;
 }
 .card .card-content {
-bottom:-9px!important;
+bottom:-13px!important;
 line-height:24px!important;
 }
 .card .card-content1 {
-bottom:0px!important;
+bottom:0px
 line-height:24px!important;
 }
 .rd-mobilepanel_title img {
