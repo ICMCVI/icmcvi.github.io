@@ -1,7 +1,7 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,900,800,700,600,500,300,200,100);
 body{
- background: #0b5e7c url(../img/bg-01.jpg) repeat-x;
+ background: #0b5e7c url(../img/bg-01.jpg) repeat;
     font-family: "myriadpro-regular",Arial,Helvetica,sans-serif;
     background-position: center;
     / background-size: cover; /
