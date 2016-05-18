@@ -612,7 +612,9 @@ padding-top:0px;
  min-height: 125px;
  background: #fff;
  width: 100%;*/
+ height: 100px;
 }
+    
 .navbar-header .col-xs-12 {
 margin:5px;
 padding:10px 0;
