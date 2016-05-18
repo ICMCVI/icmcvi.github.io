@@ -422,8 +422,11 @@ footer .well1 {
     padding-top: 10px;
 }
 .blue-color{
-float:none; margin:0 10px;
-color:#34accb;
+ float: none!important;
+    margin: 0 8px!important;
+    /* color: #34accb; */
+    cursor: pointer;
+
 }
 
 .color-red{
