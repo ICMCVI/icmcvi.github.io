@@ -29,7 +29,7 @@ a, a:visited {
 .navbar-brand img {
 	padding:10px!important;
 }
-}
+
 main .container {
 	background: #ffffff;
 	padding: 29px 20px 50px!important;
@@ -464,6 +464,17 @@ header .top-sect .help-box a {
     padding-left:0px; 
 	top: 26px;
 }
+.post-col h2 a{
+color:#000;
+font-size:30px;
+font-weight:500;
+}
+.post-col h2 a:hover{
+color:#3ab0ce;
+}
+
+
+
 
 /***media query***/
  @media (max-width: 767px) {
