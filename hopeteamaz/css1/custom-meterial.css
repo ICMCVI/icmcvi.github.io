@@ -5633,7 +5633,7 @@ transition:color .3s ease;
 }
 .card .card-reveal {
 	padding:20px;
-	position:absolute;
+	position:fixed;
 	background-color:#fff;
 	/*left:16%;
 	right:16%;*/
@@ -5652,7 +5652,7 @@ transition:color .3s ease;
 }
 .card .card-reveal1 {
 	padding:20px;
-	position:absolute;
+	position:fixed;
 	background-color:#fff;
 	/*left:16%;
 	right:16%;*/
