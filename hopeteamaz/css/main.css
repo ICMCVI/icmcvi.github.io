@@ -519,6 +519,9 @@ header .top-sect .help-box {
 top:3px;
     bottom: 200px;
 }
+main .container{
+padding:0!important;	
+}
 
  }
 
