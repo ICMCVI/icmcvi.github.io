@@ -516,7 +516,12 @@ top:3px;
 
 /***media query***/
  @media (max-width: 767px) {
-	 
+.banner-image {
+  margin-bottom:10px;
+   
+    padding: 10px;
+   
+}	 
 .desk-view{
 display:none;
 }
