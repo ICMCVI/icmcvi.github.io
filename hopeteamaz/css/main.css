@@ -489,6 +489,9 @@ header .top-sect .help-box a {
 header .row .col-sm-12{
 
 }
+.min-height{
+	min-height:auto;
+}
 .rd-mobilepanel{
 height:120px;
 display:block!important;
