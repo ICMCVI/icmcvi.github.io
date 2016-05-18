@@ -1064,7 +1064,7 @@ th {
   background: rgba(255, 255, 255, 0.9);
   z-index: 999;
   box-shadow: 0 1px 2px #bbb;
-  height: 78px;
+  height: 50px;
 }
 @media (max-width: 1199px) {
   .isStuck {
@@ -1073,7 +1073,7 @@ th {
 }
 @media only screen and (max-width: 992px) {
   .isStuck {
-    display: none !important;
+    display: block !important;
   }
 }
 .isStuck .sf-menu ul {
@@ -1104,7 +1104,7 @@ th {
   -o-transition: 0.3s;
   transition: 0.3s;
   position: fixed;
-  right: 66px;
+  right:35px;
   bottom: 120px;
   display: none;
   overflow: hidden;
@@ -2069,8 +2069,8 @@ padding-top:0px;
 =========================================================*/
 main .container{
   background: #ffffff;
-  padding: 29px 20px 50px!important;
-  margin-bottom:50px!important;
+  padding: 29px 20px 50px;
+  margin-bottom:50px;
 }
 section.sect-404 strong {
   font-size: 160px;
