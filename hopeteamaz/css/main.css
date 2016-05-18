@@ -453,6 +453,17 @@ ul.sitemap li {
     padding: 0!important;
     margin-bottom: 0!important;
 }
+header .top-sect .help-box a {
+    display: block;
+    color: #21c2f8;
+    font-size: 43px;
+    font-weight: 800;
+    line-height: 45px;
+    letter-spacing: -1px;
+    position: relative;
+    padding-left:0px; 
+	top: 26px;
+}
 
 /***media query***/
  @media (max-width: 767px) {
@@ -614,7 +625,7 @@ header .stuck_container {
 padding-top:0px;
 }
 .rd-mobilepanel_title img {
- max-width: 68%;
+ max-width: 78%;
 }
 }
  .rd-mobilemenu_ul a.rd-with-ul.active .rd-submenu-toggle {
