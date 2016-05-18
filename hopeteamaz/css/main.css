@@ -486,6 +486,10 @@ header .top-sect .help-box a {
   position: relative;
   top: 10px;
 }
+header .row .col-sm-12{
+margin-top:0;
+margin-bottom:0;
+}
 .rd-mobilepanel{
 height:120px;
 display:block!important;
