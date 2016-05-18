@@ -504,7 +504,7 @@ display:block!important;
 header .top-sect .help-box {
     float: right;
     position: relative;
-    top: 50px;
+    top: 15px;
 }
 .rd-mobilepanel_title{
     position: fixed;
