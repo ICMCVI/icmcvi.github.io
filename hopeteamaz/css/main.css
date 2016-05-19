@@ -387,7 +387,7 @@ fieldset label {
 	text-align:left;
 }
 .center991 h2 {
-	text-transform: capitalize;
+	text-transform: uppercase;
 }
 .min-height .wrap p {
 	padding: 0 20px!important;
