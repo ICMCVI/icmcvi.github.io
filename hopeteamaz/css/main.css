@@ -524,6 +524,10 @@ top:3px;
 main .container{
 padding:0!important;	
 }
+.navbar-brand {
+   
+    display: none;
+}
 
  }
 
