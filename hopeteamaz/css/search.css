@@ -15,7 +15,7 @@
 }
 @media (max-width: 991px) {
   .search-form {
-    width: 221px;
+    width: 100%;
   }
 }
 .search-form_label {
@@ -92,13 +92,7 @@
 }
 @media (max-width: 767px) {
   .search-form {
-    display: none;
-    position: fixed;
-    top: 75px;
-    left: 15px;
-    right: 15px;
     background: rgba(255, 255, 255, 0.95);
-    width: auto;
     border: 1px solid #c9c9c9;
     -moz-transition: 0.4s;
     -webkit-transition: 0.4s;
