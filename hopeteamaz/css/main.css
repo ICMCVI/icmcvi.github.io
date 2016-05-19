@@ -487,13 +487,16 @@ margin-left:20px;
 .post-info {
     color: #999;
     font-size: 12px;
-    margin: 0px 0 10px;
+     margin: -10px 0 10px;
 }
 
  @media (min-width: 768px) and (max-width:1023px) {
 header .top-sect .help-box a {
   position: relative;
   top: 50px;
+}
+.post-info {
+    margin: 0px 0 10px;
 }
 header .row .col-sm-12{
 
