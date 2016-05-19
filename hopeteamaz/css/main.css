@@ -750,10 +750,10 @@ display:block!important;
 }
 	
 }
- @media (max-width: 420px) {
+ @media (max-width:500px) {
  .rd-mobilepanel {
 /* line-height: 200px;*/
- min-height: 90px;
+ min-height: 90px!important;
  background: #fff;
  width: 100%;
 }
@@ -796,17 +796,6 @@ padding-top:0px;
  z-index: 1;
  background: rgba(0, 0, 0, 0.1);
 }
-/*.rd-mobilepanel{
-height:96px;
-}
-.rd-mobilemenu_ul{
-top:-40px;
-}
-.rd-mobilepanel{
-padding-bottom:10px;
-}
-*/
-
 .rd-mobilemenu_ul ul a {
  text-transform: uppercase;
 }
