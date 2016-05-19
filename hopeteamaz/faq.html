@@ -30,7 +30,7 @@ HEADER
         <div class="navbar-header padding-zero">
           <div class="row">
             <div class="col-md-4 col-sm-12 col-xs-12">
-              <h1 class="navbar-brand img-responsive"> <a data-type='rd-navbar-brand'  href="index.html"><img src="img/HOPE-Logo-CMYK.png" alt="Hopeteamaz"></a> </h1>
+               <h1 class="navbar-brand img-responsive"> <a data-type='rd-navbar-brand'  href="index.html"><img src="img/HOPE-Logo-CMYK.png" alt="Hopeteamaz"></a> </h1>
             </div>
             <div class="col-md-8 col-sm-12 col-xs-12">
               <div class="help-box text-right"> <a href="index.html"><img src="img/top-header.png"></a> </div>
@@ -85,6 +85,14 @@ CONTENT
         <div class="container center991">
           <div class="row">
             <div class="col-md-8 col-sm-12 col-xs-12 space-content">
+              <div class=" media mob-view">
+                  <form class="search-form" action="search.php" method="GET" accept-charset="utf-8">
+                    <label class="search-form_label">
+                      <input class="search-form_input" type="text" value="Search this website …" name="s" onfocus="if ('Search this website …' === this.value) {this.value = '';}" onblur="if ('' === this.value) {this.value = 'Search this website …';}"/>
+                      <span class="search-form_liveout"></span> </label>
+                    <button class="search-form_submit fa-search" type="submit"></button>
+                  </form>
+                </div>
               <h2> FAQ </h2>
               <div class="entry-content">
                 <h6>What does H.O.P.E. stand for?&nbsp;</h6>
@@ -106,7 +114,7 @@ CONTENT
             </div>
             <aside  id="sidebar" class="title-height">
               <div class="col-md-4 col-sm-12 col-xs-12">
-                <div class=" media">
+                <div class=" media desk-view">
                   <form class="search-form" action="search.php" method="GET" accept-charset="utf-8">
                     <label class="search-form_label">
                       <input class="search-form_input" type="text" value="Search this website …" name="s" onfocus="if ('Search this website …' === this.value) {this.value = '';}" onblur="if ('' === this.value) {this.value = 'Search this website …';}"/>
