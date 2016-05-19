@@ -465,9 +465,10 @@ header .top-sect .help-box a {
 	top: 26px;
 }
 .post-col h2 a{
-color:#000;
-font-size:30px;
-font-weight:500;
+  color: #000;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
 }
 .post-col h2 a:hover{
 color:#3ab0ce;
