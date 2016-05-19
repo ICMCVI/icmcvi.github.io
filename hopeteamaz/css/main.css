@@ -478,7 +478,12 @@ display:block;
 .mob-view{
 display:none;
 }
-
+.entry-content ul li{
+list-style:square;
+}
+.entry-content ul{
+margin-left:20px;
+}
 
 
  @media (min-width: 768px) and (max-width:1023px) {
