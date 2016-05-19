@@ -753,7 +753,7 @@ display:block!important;
  @media (max-width:500px) {
  .rd-mobilepanel {
 /* line-height: 200px;*/
- min-height: 90px!important;
+height: 90px!important;
  background: #fff;
  width: 100%;
 }
