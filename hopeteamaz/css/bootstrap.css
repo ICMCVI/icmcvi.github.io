@@ -1077,7 +1077,7 @@ th {
   }
 }
 .isStuck .sf-menu ul {
-  top:63px;
+  top:50px;
 }
 @media (max-width: 1199px) {
   .isStuck .sf-menu ul {
