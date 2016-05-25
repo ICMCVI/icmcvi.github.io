@@ -7,14 +7,14 @@ body {
 background-size: cover;
   width: 100%;
 	height: 100%;
-	background-size: 100%/0/;
+	/*background-size: 100%/0/;
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
 src='images/logo.gif',
 sizingMethod='scale');
 
 -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
 src='images/logo.gif',
-sizingMethod='scale')";
+sizingMethod='scale')";*/
 }
 @font-face {
  font-family: 'myriadpro-regular';
