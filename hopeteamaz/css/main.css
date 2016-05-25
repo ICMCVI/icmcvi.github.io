@@ -588,6 +588,10 @@ main .container {
 .desk-view{
 display:none;
 }
+
+.text-center-col{
+text-align:center!important;
+}
 }
  @media (max-width: 800px) {
 .card .card-reveal1 {
