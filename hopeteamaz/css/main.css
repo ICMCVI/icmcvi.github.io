@@ -858,21 +858,10 @@ padding-top:0px;
 
 .logo-slide{
 width:12%;
-display:inline;
+display:none;
 float:left;
 margin-right:20px;
 }
-
-.isStuck .logo-slide{
-width:12%;
-display:inline;
-float:left;
-margin-right:20px;
-}
-.isStuck{
-
-}
-
 .comment-text{
 font-size:14px;
 color:#666;
