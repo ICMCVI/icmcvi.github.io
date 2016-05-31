@@ -53,7 +53,9 @@
 					
 					
 					 if(scrollTop>=posY&&!isStuck){	
-					 	$('.logo-slide').css('display', 'block');		
+					 	$('.logo-slide').css('display', 'block');
+					 	$('.navbar-nav').css('float','right');
+						$('.navbar-nav').css('margin-top','3px');
 						clone
 							.stop()
 							.css({visibility:'visible'})
@@ -69,8 +71,7 @@
 					if(scrollTop <= posY)
 					{
 						$('.logo-slide').css('display','none');
-						$('.navbar-nav').css('float','right');
-						$('.navbar-nav').css('margin-top','3px');
+						
 					}
 					
 					if(scrollTop<posY+height&&isStuck){
