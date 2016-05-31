@@ -70,6 +70,7 @@
 					{
 						$('.logo-slide').css('display','none');
 						$('.navbar-nav').css('float','right');
+						$('.navbar-nav').css('margin-top','3px');
 					}
 					
 					if(scrollTop<posY+height&&isStuck){
