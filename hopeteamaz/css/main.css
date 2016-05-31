@@ -502,8 +502,9 @@ header .top-sect .help-box a {
 	display:none;
 }
 .entry-content ul li {
-	list-style:square;
+	list-style:circle;
 }
+
 .entry-content ul {
     margin-left: 20px;
     width: 48%;
