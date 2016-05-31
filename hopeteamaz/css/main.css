@@ -412,7 +412,7 @@ fieldset label {
 	text-transform: uppercase;
 }
 .min-height .wrap p {
-	padding: 0 20px!important;
+	padding: 0 20px;
 }
 .min-height .wrap {
 	margin-bottom:20px!important;
@@ -506,7 +506,7 @@ header .top-sect .help-box a {
 }
 .entry-content ul {
     margin-left: 20px;
-    width: 48.8%;
+    width: 48%;
     display: inline-table;
 }
 footer.top-border .container{
@@ -798,6 +798,11 @@ display:block!important;
 }
 }
  @media (max-width:500px) {
+	 .entry-content ul {
+    margin-left: 20px;
+    width: 100%;
+    display: inline-table;
+}
  .rd-mobilepanel {
 /* line-height: 200px;*/
 height: 90px!important;
@@ -868,4 +873,9 @@ color:#666;
 }
 .card-reveal .wrap{
 margin-top:20px;
+}
+
+.text-left p, .text-left h6{
+text-align:left!important;
+padding-left:30px!important;
 }
