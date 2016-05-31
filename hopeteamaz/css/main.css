@@ -868,6 +868,9 @@ display:none;
 float:left;
 margin-right:20px;
 }
+.logo-slide img{
+padding:0px!important;
+}
 .comment-text{
 font-size:14px;
 color:#666;
