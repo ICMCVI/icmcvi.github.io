@@ -1064,7 +1064,7 @@ th {
   background: rgba(255, 255, 255, 0.9);
   z-index: 999;
   box-shadow: 0 1px 2px #bbb;
-  height: 50px;
+  height: 56px;
 }
 @media (max-width: 1199px) {
   .isStuck {
