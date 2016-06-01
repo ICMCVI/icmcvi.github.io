@@ -892,7 +892,8 @@ padding-left:30px!important;
 	
   }
   footer .container p{
-  float:right;
+  float:right\0/;
+  padding-right: 15px\0/;
   	
   }
   }
