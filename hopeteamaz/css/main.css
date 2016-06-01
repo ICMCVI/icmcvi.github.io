@@ -34,7 +34,9 @@ a, a:visited {
 	padding:10px!important;
 }
 main .container {
-	background: #ffffff;/*padding: 29px 20px 50px!important;*/
+	background: #ffffff;
+	background: #ffffff\0/;
+	/*padding: 29px 20px 50px!important;*/
 }
 .well {
 	padding:0;
