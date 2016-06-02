@@ -1,7 +1,10 @@
 .ie-bg{
 background-color:#ffffff!important;
-width:100%;
+width:1170px;
 height:auto;
 display:flex;
 overflow:auto;
+min-height:600px;
+padding-left:20px;
+padding-right:20px;
 }
