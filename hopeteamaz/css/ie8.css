@@ -1,5 +1,7 @@
 .ie-bg{
-background-color:#ffffff;
+background-color:#ffffff!important;
 width:100%;
 height:auto;
+display:flex;
+overflow:auto;
 }
