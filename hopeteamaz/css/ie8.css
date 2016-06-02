@@ -3,7 +3,7 @@ background-color:#ffffff!important;
 width:1170px;
 height:auto;
 display:flex;
-overflow:auto;
+overflow:hidden;
 min-height:600px;
 padding-left:20px;
 padding-right:20px;
