@@ -37,9 +37,9 @@ float:right\0/!important;
 .thumb-shadow h3{
 min-height:60px\0/!important;
 }
-.space-content p a {
+.space-content p a img{
     float: left;
     margin-right: 20px;
-    width: 230px\0/!important;
+    min-width: 230px\0/!important;
 }
 
