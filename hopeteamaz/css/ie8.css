@@ -1,7 +1,7 @@
 .ie8-bg{
-background-color:#ffffff\0/;
-width:1170px\0/;
-margin:auto\0/;
+background-color:#ffffff!important;
+width:1170px!important;
+margin:auto!important;
 display:flex\0/;
 overflow:hidden\0/;
 min-height:600px\0/;
