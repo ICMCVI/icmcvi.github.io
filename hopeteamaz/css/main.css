@@ -622,7 +622,7 @@ text-align:center!important;
 }
 header .top-sect .help-box {
  position: relative;
-    top: 55px;
+    top: 55px!important;
 }
 }
 
