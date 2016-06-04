@@ -53,8 +53,11 @@ width:100%!important;
 background-color:#fff;
   }
   .space-content{
-  padding-left:30px!important;
+  /*padding-left:30px!important;*/
     
 
   }
+ main .container{
+ padding-left:20px!important;
+ }
 
