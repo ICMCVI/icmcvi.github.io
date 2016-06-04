@@ -58,6 +58,7 @@ min-height:60px\0/!important;
     float: left;
     margin-right: 20px;
     min-width: 230px\0/!important;
+    max-width:700px!important;
 }
 #stuck_container{
 width:100%!important;
@@ -69,6 +70,7 @@ background-color:#fff;
 
   }
  main .container{
- padding-left:20px!important;
+ padding-left:20px\0/!important;
+ padding-left:20px \0/IE9; }  /* IE9 + IE10pp4 */
  }
 
