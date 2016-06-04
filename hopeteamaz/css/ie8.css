@@ -30,10 +30,10 @@ top:3px\0/!important;
 }
 .banner-image{
 padding-right:20px\0/!important;
-  padding-left:20px\0/IE8; }  /* IE8 */
+  padding-left:20px\0/IE8;   /* IE8 */
 }
 header{
-  padding-left:20px\0/IE8; }  /* IE8 */   
+  padding-left:20px\0/IE8;   /* IE8 */   
 }
 
 .center991{
@@ -42,12 +42,12 @@ padding-right:20px\0/!important;
 }
 .center991 .col-md-4{
 width:33.3%\0/;
-width:32.3%\0/IE8; }  /* IE8 */
+width:32.3%\0/IE8;  /* IE8 */
 }
-footer .container p{
-text-align:right\0/!important;
-padding-right:40px\0/!important;
-float:right\0/!important;
+footer p{
+text-align:right\0/!important IE8;  /* IE8 */
+padding-right:40px\0/!important IE8;  /* IE8 */
+float:right\0/!important IE8;  /* IE8 */
   }
 .card-content{
   display:none\0/!important;
