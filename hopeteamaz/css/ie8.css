@@ -31,14 +31,18 @@ top:3px\0/!important;
 .banner-image{
 padding-right:20px\0/!important;
   padding-left:20px\0/IE8; }  /* IE8 */
-
 }
+header{
+  padding-left:20px\0/IE8; }  /* IE8 */   
+}
+
 .center991{
 padding-left:0px\0/!important;
 padding-right:20px\0/!important;
 }
 .center991 .col-md-4{
 width:33.3%\0/;
+width:32.3%\0/IE8; }  /* IE8 */
 }
 footer .container p{
 text-align:right\0/!important;
