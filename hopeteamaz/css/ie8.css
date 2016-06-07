@@ -80,4 +80,6 @@ background-color:#fff;
  padding-left:20px\0/!important;
  padding-left:20px \0/IE9; }  /* IE9 + IE10pp4 */
  }
-
+.entry-content p frame{
+height:820px!important;
+}
