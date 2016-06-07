@@ -907,7 +907,7 @@ padding-left:30px!important;
   }
   footer .container p{
   float:right\0/;
-  text-align:right!important\0/;
+  text-align:right\0/!important;
   padding-right: 20px\0/;
   }
     footer .container{
@@ -922,4 +922,8 @@ width:100%!important;
 background-color:#fff;
   
 }
+.entry-content p iframe{
+height:820px\0/!important;
+}
+
   
