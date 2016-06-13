@@ -23,7 +23,7 @@ body {
 
 position:relative\0/!important;
 top:5px\0/!important;
-/*top:7px\0/!important IE8;   /* IE8 */
+top:15px\0/!important IE8;   /* IE8 */
 }
 .padding-zero, .center991{
   padding-right:0px\0/;
