@@ -2175,14 +2175,16 @@ article img.pull-right, article .align-right{
   }
   .navbar-toggle{
   margin-top:19px!important;
-      margin-right: 15px;
+      margin-right: 25px;
   }
   .main-slider .flex-caption h3{
       font-size: 14px;
   }
   .main-slider .flex-caption{
-  width:auto;
+  width:70%;
   right:0px;
+  padding:10px;
+  top:15px;
   }
   
  	#wrapper.boxed{
@@ -2312,7 +2314,10 @@ article img.pull-right, article .align-right{
 		margin-top:20px;
 	}
 
-
+.main-slider .flex-caption {
+    width: 100%;
+    right: 0px;
+}
 	.search{
 		float:left;
 	}
