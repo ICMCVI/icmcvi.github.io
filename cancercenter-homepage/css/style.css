@@ -2321,7 +2321,11 @@ article img.pull-right, article .align-right{
 	.search{
 		float:left;
 	}
-
+.flex-caption .btn-theme {
+    position: relative;
+    left:auto!important;
+    margin-top: 0px!important;
+}
 
 	.cta-text {
 		margin:0 auto;
