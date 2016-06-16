@@ -89,4 +89,9 @@ font-weight:300; color: #fff }
     text-align: center;
     z-index: 99;
 }
+.flex-caption .btn-theme {
+position:relative;
+left:-10px!important;
+margin-top:10px!important;
+}
 }
