@@ -2317,6 +2317,7 @@ article img.pull-right, article .align-right{
 .main-slider .flex-caption {
     width: 100%;
     right: 0px;
+	top:0;
 }
 	.search{
 		float:left;
