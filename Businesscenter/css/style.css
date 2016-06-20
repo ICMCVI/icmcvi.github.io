@@ -15,7 +15,8 @@ body {
 	font-size:14px;
 	font-weight:300;
 	line-height:1.6em;
-	overflow-x:hidden;
+	overflow-x:hidden!important;
+	overflow-y:scroll!important;
 	background-position:center;
 }
 a:active {
@@ -28,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'MyriadPro Regular';
 	font-weight:700;
 	line-height:1.1em;
-	color:#666;
+	
 	margin-bottom: 20px;
 }
 .highlight {
@@ -379,7 +380,7 @@ section.callaction {
 	padding: 0 15px;
 }
 .cta-text h2 {
-	font-size: 35px;
+	font-size: 45px;
 	line-height: 1.1em;
 	color: #65938c;
 	font-family: 'MyriadPro Regular';
@@ -453,7 +454,7 @@ section.callaction {
 	background: rgba(0, 0, 0, .5);
 	padding: 10px 15px;
 	display: block;
-	bottom: 48px;
+	bottom: 47px;
 	color:#fff;
 	width:332px;
 	margin:0;
@@ -845,6 +846,10 @@ article img.pull-right, article .align-right {
  padding-right: 0;
  padding-left: 0;
 }
+.cta-btn1 {
+	width: 332px;
+	margin:0 auto;
+}
  .navbar-toggle {
  margin-top:30px!important;
  margin-right: 25px;
@@ -858,6 +863,10 @@ article img.pull-right, article .align-right {
  padding:10px;
  top:15px;
 }
+.box{
+margin:0px!important;
+padding:0px!important;
+}
  .box-align {
  width: 100%!important;
  margin:10px auto!important;
@@ -865,6 +874,13 @@ article img.pull-right, article .align-right {
 }
 .featured-section .box h4 {
  margin:10px auto!important;
+bottom: 56px;
+}
+.cta-btn1 {
+ 
+    position: relative;
+    bottom: 50px!important;
+    
 }
 .box {
  padding: 20px 0;
@@ -939,7 +955,7 @@ padding:0 15px;
 }
  .box {
  padding:20px 0;
- margin-bottom: 20px;
+/* margin-bottom: 20px;*/
 }
  #inner-headline .breadcrumb {
  float:left;
@@ -1054,10 +1070,11 @@ padding:0 15px;
 .cta-btn1 {
 	padding: 10px 15px;
 	background: #00aeef;
-	position: absolute;
-	bottom: -10px;
+	position: relative;
+	    bottom: 28px;
 	font-size: 16px;
-	width: 332px
+	width: 332px;
+	
 }
 .cta-btn1 a {
 	color: #fff;
@@ -1072,9 +1089,9 @@ padding:0 15px;
 .key-element li {
 	width:48%;
 	display:inline-block;
-	padding:5px 10px;
-	background:#00aeef;
-	color:#fff;
+	padding:8px 10px;
+	background: url(../img/right-arrow-black.png) right 10px center no-repeat rgba(0,174,239, 0.2);
+	color:#333;
 	margin-bottom:20px;
 	position:relative;
 }
@@ -1087,28 +1104,35 @@ float:right
 .key-element li h4 {
 	padding:0;
 	margin:0;
-	color:#fff;
+	
 	font-family:Arial, Helvetica, sans-serif;
 	font-weight:bold;
 	font-size:16px;
 }
+
 .key-element li p {
-	color:#fff;
+	
 	font-family:Arial, Helvetica, sans-serif;
 	padding-bottom:0;
 	margin-bottom:0px;
 	font-size:14px;
 }
+.key-element li:hover{
+background: url(../img/right-arrow.png) right 10px center no-repeat #00aeef;
+color:#fff!important;
+cursor:pointer;
+}
+
 .box-align:first-child {
 	text-align:left;
 }
 .box-align:last-child {
 	margin-right:0px;
 }
-.box-align {
-	width: 31%;
-	margin-right:36px;
-}
+/*.box-align {
+	    width: 31.8%;
+    margin-right: 26px;
+}*/
 footer p span {
 	margin:0 10px;
 	font-family:16px;
@@ -1123,3 +1147,163 @@ footer p span {
 }
 
 /* Theme Styler :: End */
+
+
+/*Technology*/
+
+.banner-bg img{
+	width:100%
+}
+
+#inner-headline {
+    background: #f2f2f2;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    color: #fefefe;
+}
+.breadcrumb>li+li:before{
+content:none;
+}
+.breadcrumb>li{
+padding:5px;
+}
+.breadcrumb a{
+color:#000;
+}
+#inner-headline .row{
+margin-bottom:0px;
+}
+.latest-medical-tech .cta-text h2{
+margin-top:40px;
+}
+.breadcrumb{
+padding:5px 0;
+margin:0px;
+}
+.text-right img{
+float:left;
+margin-right: 15px;
+}
+.text-right .box{
+background:#e6f2de;
+margin-left:15px;
+min-height:230px;
+}
+.content-sec{
+padding:15px 10px 20px 0;
+text-align:left;
+}
+.content-sec .btn-theme{
+background:#00aeef;
+border:none;
+border-radius:0px;
+
+}
+
+.text-right h4{
+	color:#356542;
+	line-height:1.4em;
+	margin-bottom:10px;
+}
+.text-right .box p{
+font-size:12px;
+line-height:20px;
+
+}
+
+.cta-text h3 {
+    font-size: 35px;
+    line-height: 1.1em;
+    color: #65938c;
+    font-family: 'MyriadPro Regular';
+    font-weight: 300;
+}
+
+
+.latest-medical-tech .cta-text p {
+    margin: 0 0 25px;
+    line-height: 28px;
+    color: #848484;
+    font-size: 20px;
+}
+
+.clinical-trials{
+margin-bottom:100px;
+}
+.panel-default{
+border-left:0px;
+border-right:0px;
+}
+.panel-default>.panel-heading {
+    color: #333;
+     background-color: transparent; 
+     border-color:none;
+    border-bottom: 0;
+}
+.panel-group .panel-heading+.panel-collapse>.panel-body{
+border-top:none;
+
+}
+
+.panel-heading {
+    padding: 20px 15px;
+	border-radus:0px;
+}
+.panel-group .panel{
+    border-radius: 0;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid transparent;
+    border-radius: 0px;
+     -webkit-box-shadow: none; 
+     box-shadow:none; 
+}
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #0f4dbc;
+}
+.clinical-trials .btn-theme{
+background:#00aeef;
+border:none;
+border-radius:0px;
+padding: 8px 35px;
+
+
+}
+.panel-body{
+padding: 0 15px;
+}
+.panel-body a{
+color:#00aeef;
+}
+.panel-body p{
+color:#848484;
+font-size:14px;
+line-height:24px;
+margin-bottom:4px;
+}
+.panel-body strong{
+color:#000;
+
+}
+
+.clinical-trials .cta-text{
+margin-bottom:50px;
+}
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e252";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: grey;         /* adjust as needed */
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e253";    /* adjust as needed, taken from bootstrap.css */
+}
