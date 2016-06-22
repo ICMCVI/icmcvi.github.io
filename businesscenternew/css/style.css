@@ -1135,7 +1135,7 @@ cursor:pointer;
 }*/
 footer p span {
 	margin:0 10px;
-	font-family:16px;
+	
 }
 .key-element li img {
 	vertical-align: middle;
@@ -1335,6 +1335,9 @@ footer a, footer p, footer address {
 }
 .inline-col ul li:last-child {
     border-right: none;
+}
+.inline-col ul{
+margin-top:40px;
 }
 .inline-col ul li {
     display: inline;
