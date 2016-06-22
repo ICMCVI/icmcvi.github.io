@@ -456,7 +456,7 @@ section.callaction {
 	display: block;
 	bottom: 47px;
 	color:#fff;
-	width:332px;
+	width:100%;
 	margin:0;
 }
 .box .icon {
@@ -1073,7 +1073,7 @@ padding:0 15px;
 	position: relative;
 	    bottom: 28px;
 	font-size: 16px;
-	width: 332px;
+	width: 100%;
 	
 }
 .cta-btn1 a {
@@ -1347,4 +1347,7 @@ margin-top:40px;
 }
 ul.link-list li {
   line-height: 20px;
+}
+.box-align img{
+width:100%;
 }
